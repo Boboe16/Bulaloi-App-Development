@@ -23,7 +23,7 @@ function DownloadPage({ data }) {
           description: `${data.appDescription}`,
           images: [
             {
-              url: {img},
+              url: "https://commons.wikimedia.org/wiki/File:Picture_icon_BLACK.svg",
               width: 800,
               height: 600,
               alt: "image",
