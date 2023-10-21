@@ -34,7 +34,7 @@ function DownloadPage({ data }) {
       />
       <div id='Content' className='row'>
         <div className='row'>
-          <Image id='Download-Page-Image' src={img} alt='img' />
+          <Image id='Download-Page-Image' src={data.appPicture} alt={img} />
         </div>
         <div className='row text-center'>
           <h3>{data.appName}</h3>
