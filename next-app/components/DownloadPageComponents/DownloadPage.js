@@ -23,7 +23,7 @@ function DownloadPage({ data }) {
           description: `${data.appDescription}`,
           images: [
             {
-              url: "https://t3.ftcdn.net/jpg/02/94/45/92/360_F_294459225_deOinf0uW2Ci6osQzwJAX9j67sIZvTwP.jpg",
+              url: `${data.appPicture}`,
               width: 800,
               height: 600,
               alt: "image",
