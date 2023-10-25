@@ -4,10 +4,7 @@ import { Html, Head, Main, NextScript } from "next/document";
    return (
      <Html lang="en">
        <Head>
-         <meta
-           name="google-site-verification"
-           content="ewawsLX9_9TZyMFjdeqxxGSWXpYSk6vUaAgtwwqakFE"
-         />
+         <meta name="google-site-verification" content="rvTVa5KFKGG9g5QcehEZVOLpdbqlLlhJ_tRQRlYykhw" />
        </Head>
        <body>
          <Main />
