@@ -1,13 +1,13 @@
- //PAGES ROUTER
- import { Html, Head, Main, NextScript } from "next/document";
+import { Html, Head, Main, NextScript } from "next/document";
 
- export default function Document() {
+ export default function Document() { 
    return (
      <Html lang="en">
        <Head>
- //
-         <meta name="google-site-verification" content="rvTVa5KFKGG9g5QcehEZVOLpdbqlLlhJ_tRQRlYykhw" />
- //
+         <meta
+           name="google-site-verification"
+           content="ewawsLX9_9TZyMFjdeqxxGSWXpYSk6vUaAgtwwqakFE"
+         />
        </Head>
        <body>
          <Main />
