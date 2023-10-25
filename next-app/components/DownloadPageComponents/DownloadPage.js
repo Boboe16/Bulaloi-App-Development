@@ -24,8 +24,8 @@ function DownloadPage({ data }) {
           images: [
             {
               url: `${data.appPicture}`,
-              width: 800,
-              height: 600,
+              width: 512,
+              height: 512,
               alt: "image",
             },
           ],
@@ -33,8 +33,8 @@ function DownloadPage({ data }) {
         }}
       />
       <div id='Content' className='row'>
-        <div className='row'>
-          <Image id='Download-Page-Image' src={data.appPicture} alt={img} />
+        <div id='Download-Page-Image-Container'>
+          <Image id='Download-Page-Image' width={0} height={0} src={data.appPicture} alt='image' />
         </div>
         <div className='row text-center'>
           <h3>{data.appName}</h3>

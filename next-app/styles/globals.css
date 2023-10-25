@@ -171,7 +171,12 @@ li {
 
 /* download-page */
 
+/*#Download-Page-Image-Container {
+  height: 10px;
+}*/
+
 #Download-Page-Image {
+  position: relative;
 	width: 100%;
 	height: 100%;
 	border: solid;
