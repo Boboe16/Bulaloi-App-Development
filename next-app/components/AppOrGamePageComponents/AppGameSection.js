@@ -41,7 +41,7 @@ function AppGameSection({ category, id, data }) {
       const gamesOrApps = id.toLowerCase();
       const response = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/sort-apps-apis/newest/${gamesOrApps}/${category}`);
       const data = await response.json();
-      console.log(`${gamesOrApps} and ${category}`)
+      //console.log(`${gamesOrApps} and ${category}`)
 
       // Update app data and reset current page
       setAppDataArray(arrayConverter(data));
