@@ -6,10 +6,11 @@ import Image from 'next/image';
 import Header from '../HeaderComponents/Header.js';
 import AppInfo from './AppInfo';
 import Description from './Description';
-import img from './img.png';
+import imageIcon from './image-icon.png';
+import ImageComponent from './ImageComponent.js';
 
 function DownloadPage({ data }) {
-  const router = useRouter(); // Soon to be used with download btn
+  const router = useRouter();
 
   return (
     <>
@@ -34,7 +35,7 @@ function DownloadPage({ data }) {
       />
       <div id='Content' className='row'>
         <div id='Download-Page-Image-Container'>
-          <Image id='Download-Page-Image' width={1000} height={600} src={data.appPicture} alt='image' />
+          <ImageComponent id='Download-Page-Image' appPicture={data.appPicture} imageIcon={imageIcon} />
         </div>
         <div className='row text-center'>
           <h3>{data.appName}</h3>
