@@ -13,14 +13,14 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <DefaultSeo
         title="Bulaloi"
-        description="Download free and without registration, full versions of any games and programs on your android device, as well as their modifications. Latest news - technology/market IT/mobile games"
+        description="Download free and without registration, full versions of any games/apps and programs on your android device, as well as their modifications. Latest news - technology/market IT/mobile games"
         openGraph={{
           url: `${process.env.NEXT_PUBLIC_URL}`,
-          title: "Bulaloi - Download free apk games and programs, read the latest news",
-          description: "Download free and without registration, full versions of any games and programs on your android device, as well as their modifications. Latest news - technology/market IT/mobile games",
+          title: "Bulaloi - Download free apk games/apps and programs, read the latest news",
+          description: "Download free and without registration, full versions of any games/apps and programs on your android device, as well as their modifications. Latest news - technology/market IT/mobile games",
           images: [
             {
-              url: `"/B-icon.png"`,
+              url: `"https://www.androidauthority.com/wp-content/uploads/2019/09/Google-Play-Pass-apps-games-icons.jpg"`,
               width: 512,
               height: 512,
               alt: "image",
