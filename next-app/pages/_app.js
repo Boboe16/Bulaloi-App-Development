@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
 		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"/>
       </Head>
-      <NextSeo
+      <DefaultSeo
         title="BULALOI"
         description="Download free and without registration, full versions of any games/apps and programs on your android device, as well as their modifications. Latest news - technology/market IT/mobile games"
         openGraph={{
@@ -20,12 +20,12 @@ function MyApp({ Component, pageProps }) {
           images: [
             {
               url: "https://wpuploads.appadvice.com/wp-content/uploads/2011/05/apps_sale4.jpg",
-              width: ,
+              width: 512,
               height: 512,
               alt: "image",
             },
           ],
-          site_name: "BULALOI",
+          site_name: "BULALOI - Download free apk games/apps and programs, read the latest news",
         }}
       />
   	  <Script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"/>
