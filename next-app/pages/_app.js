@@ -10,17 +10,17 @@ function MyApp({ Component, pageProps }) {
 		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"/>
       </Head>
-      <DefaultSeo
+      <NextSeo
         title="BULALOI"
         description="Download free and without registration, full versions of any games/apps and programs on your android device, as well as their modifications. Latest news - technology/market IT/mobile games"
         openGraph={{
           url: `${process.env.NEXT_PUBLIC_URL}`,
-          title: "BULALOI",
+          title: "BULALOI - Download free apk games/apps and programs, read the latest news",
           description: "Download free and without registration, full versions of any games/apps and programs on your android device, as well as their modifications. Latest news - technology/market IT/mobile games",
           images: [
             {
-              url: "https://images.macrumors.com/t/RrcD5LBcxuUgdlDHl7AzIumQwyY=/400x0/article-new/2020/12/apple-top-apps-games-2020.jpg?lossy",
-              width: 512,
+              url: "https://wpuploads.appadvice.com/wp-content/uploads/2011/05/apps_sale4.jpg",
+              width: ,
               height: 512,
               alt: "image",
             },
