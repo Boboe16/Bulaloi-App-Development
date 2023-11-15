@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
           description: "Download free and without registration, full versions of any games/apps and programs on your android device, as well as their modifications. Latest news - technology/market IT/mobile games",
           images: [
             {
-              url: `"https://www.androidauthority.com/wp-content/uploads/2019/09/Google-Play-Pass-apps-games-icons.jpg"`,
+              url: "https://www.androidauthority.com/wp-content/uploads/2019/09/Google-Play-Pass-apps-games-icons.jpg",
               width: 1000,
               height: 600,
               alt: "image",
