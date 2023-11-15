@@ -2,7 +2,6 @@ import '@/styles/globals.css';
 import Head from "next/head";
 import Script from "next/script";
 import { DefaultSeo } from "next-seo";
-// import B_png from './B-icon.png'
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -20,7 +19,7 @@ function MyApp({ Component, pageProps }) {
           description: "Download free and without registration, full versions of any games/apps and programs on your android device, as well as their modifications. Latest news - technology/market IT/mobile games",
           images: [
             {
-              url: "https://www.androidauthority.com/wp-content/uploads/2019/09/Google-Play-Pass-apps-games-icons.jpg",
+              url: "https://wpuploads.appadvice.com/wp-content/uploads/2011/05/apps_sale4.jpg",
               width: 1000,
               height: 1000,
               alt: "image",
@@ -29,7 +28,6 @@ function MyApp({ Component, pageProps }) {
           site_name: "Bulaloi",
         }}
       />
-      <img width='100%' src='https://www.androidauthority.com/wp-content/uploads/2019/09/Google-Play-Pass-apps-games-icons.jpg' alt='img'/>
   	  <Script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"/>
   	  <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"/>
       <Component {...pageProps} />
