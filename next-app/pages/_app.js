@@ -11,11 +11,11 @@ function MyApp({ Component, pageProps }) {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"/>
       </Head>
       <DefaultSeo
-        title="Bulaloi"
+        title="BULALOI"
         description="Download free and without registration, full versions of any games/apps and programs on your android device, as well as their modifications. Latest news - technology/market IT/mobile games"
         openGraph={{
           url: `${process.env.NEXT_PUBLIC_URL}`,
-          title: "Bulaloi - Download free apk games/apps and programs, read the latest news",
+          title: "BULALOI",
           description: "Download free and without registration, full versions of any games/apps and programs on your android device, as well as their modifications. Latest news - technology/market IT/mobile games",
           images: [
             {
@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
               alt: "image",
             },
           ],
-          site_name: "Bulaloi",
+          site_name: "BULALOI",
         }}
       />
   	  <Script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"/>
