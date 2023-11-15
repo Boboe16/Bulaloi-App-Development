@@ -21,8 +21,8 @@ function MyApp({ Component, pageProps }) {
           images: [
             {
               url: `"https://www.androidauthority.com/wp-content/uploads/2019/09/Google-Play-Pass-apps-games-icons.jpg"`,
-              width: 512,
-              height: 512,
+              width: 1000,
+              height: 600,
               alt: "image",
             },
           ],
