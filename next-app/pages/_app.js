@@ -20,8 +20,8 @@ function MyApp({ Component, pageProps }) {
           images: [
             {
               url: "https://wpuploads.appadvice.com/wp-content/uploads/2011/05/apps_sale4.jpg",
-              width: 1000,
-              height: 1000,
+              width: 512,
+              height: 512,
               alt: "image",
             },
           ],
