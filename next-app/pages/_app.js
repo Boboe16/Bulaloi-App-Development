@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
           description: "Download free and without registration, full versions of any games/apps and programs on your android device, as well as their modifications. Latest news - technology/market IT/mobile games",
           images: [
             {
-              url: "https://wpuploads.appadvice.com/wp-content/uploads/2011/05/apps_sale4.jpg",
+              url: "https://images.macrumors.com/t/RrcD5LBcxuUgdlDHl7AzIumQwyY=/400x0/article-new/2020/12/apple-top-apps-games-2020.jpg?lossy",
               width: 512,
               height: 512,
               alt: "image",
