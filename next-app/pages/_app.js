@@ -22,13 +22,14 @@ function MyApp({ Component, pageProps }) {
             {
               url: "https://www.androidauthority.com/wp-content/uploads/2019/09/Google-Play-Pass-apps-games-icons.jpg",
               width: 1000,
-              height: 600,
+              height: 1000,
               alt: "image",
             },
           ],
           site_name: "Bulaloi",
         }}
       />
+      <img width='100%' src='https://www.androidauthority.com/wp-content/uploads/2019/09/Google-Play-Pass-apps-games-icons.jpg' alt='img'/>
   	  <Script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"/>
   	  <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"/>
       <Component {...pageProps} />
