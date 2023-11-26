@@ -95,7 +95,7 @@ function Header() {
       crossorigin="anonymous" />
       
       <ins className="adsbygoogle"
-           // style="display:block"
+           style={{display: 'block'}}
            data-ad-client="ca-pub-4230199495923533"
            data-ad-slot="5457315583"
            data-ad-format="auto"
