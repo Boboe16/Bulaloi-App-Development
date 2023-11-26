@@ -2,7 +2,7 @@ import { useEffect, useState, useRef } from 'react'
 import { useRouter } from 'next/router'
 import { useMediaQuery } from 'react-responsive'
 import Image from 'next/image'
-import Script from "next/script";
+import Script from "next/script"
 import NavBarForMobileAndTabletDevices from './NavBarForMobileAndTabletDevices.js'
 import NavBarForDesktopDevices from './NavBarForDesktopDevices.js'
 import SearchBar from './Searchbar.js'
@@ -99,8 +99,9 @@ function Header() {
            data-ad-client="ca-pub-4230199495923533"
            data-ad-slot="5457315583"
            data-ad-format="auto"
-           data-full-width-responsive="true"></ins>
-      <Script>
+           data-full-width-responsive="true">
+      </ins>
+      <Script id='google-script'>
            (adsbygoogle = window.adsbygoogle || []).push({});
       </Script>
     </>
