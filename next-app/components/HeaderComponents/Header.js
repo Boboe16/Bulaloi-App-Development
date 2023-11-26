@@ -2,6 +2,7 @@ import { useEffect, useState, useRef } from 'react'
 import { useRouter } from 'next/router'
 import { useMediaQuery } from 'react-responsive'
 import Image from 'next/image'
+import Script from "next/script";
 import NavBarForMobileAndTabletDevices from './NavBarForMobileAndTabletDevices.js'
 import NavBarForDesktopDevices from './NavBarForDesktopDevices.js'
 import SearchBar from './Searchbar.js'
@@ -89,6 +90,19 @@ function Header() {
       
       { isPhoneOrTablet && isClient && <NavBarForMobileAndTabletDevices /> }
       { isDesktopOrLaptop && isClient && <NavBarForDesktopDevices /> }
+
+      <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4230199495923533"
+      crossorigin="anonymous" />
+      
+      <ins className="adsbygoogle"
+           // style="display:block"
+           data-ad-client="ca-pub-4230199495923533"
+           data-ad-slot="5457315583"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <Script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </Script>
     </>
   )
 }
