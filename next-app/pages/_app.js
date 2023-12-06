@@ -1,7 +1,7 @@
 import '@/styles/globals.css';
 import Head from "next/head";
 import Script from "next/script";
-import { NextSeo } from "next-seo";
+import { DefaultSeo } from "next-seo";
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/B-icon.png" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"/>
       </Head>
-      <NextSeo
+      <DefaultSeo
         title="BULALOI"
         description="Download free and without registration, full versions of any games/apps and programs on your android device, as well as their modifications. Latest news - technology/market IT/mobile games"
         openGraph={{
