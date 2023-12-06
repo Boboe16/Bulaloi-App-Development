@@ -1,7 +1,7 @@
 import '@/styles/globals.css';
 import Head from "next/head";
 import Script from "next/script";
-import { DefaultSeo } from "next-seo";
+import { NextSeo } from "next-seo";
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -12,11 +12,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/B-icon.png" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"/>
       </Head>
-      <Script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"/>
-  	  <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"/>
-      <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4230199495923533" crossorigin="anonymous" /> {/*Tag that generate Google adsense ads*/}
-      <Component {...pageProps} />
-      <DefaultSeo
+      <NextSeo
         title="BULALOI"
         description="Download free and without registration, full versions of any games/apps and programs on your android device, as well as their modifications. Latest news - technology/market IT/mobile games"
         openGraph={{
@@ -34,6 +30,10 @@ function MyApp({ Component, pageProps }) {
           site_name: "BULALOI - Download free apk games/apps and programs, read the latest news",
         }}
       />
+      <Script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"/>
+  	  <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"/>
+      <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4230199495923533" crossorigin="anonymous" /> {/*Tag that generate Google adsense ads*/}
+      <Component {...pageProps} />
     </>
   );
 }
